@@ -41,9 +41,7 @@
     <source-file src="src/ios/SocialVk.m" />
     <source-file src="src/ios/NSData+Base64.h" />
     <source-file src="src/ios/NSData+Base64.m" />
-    <framework src="src/ios/VKSdk.framework" custom="true"/>
     <framework src="SafariServices.framework" custom="false"/>
-    <resource-file src="src/ios/VKSdkResources.bundle" />
 
     <config-file target="*-Info.plist" parent="CFBundleURLTypes">
       <array>
