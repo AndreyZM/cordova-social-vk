@@ -2,7 +2,7 @@
 //  SocialVk.m
 
 #import "SocialVk.h"
-#import <VKSdk/VKBundle.h>
+#import <VKBundle.h>
 #import "NSData+Base64.h"
 
 static NSString *VK_AUTHORIZE_URL_STRING = @"vkauthorize://authorize";
