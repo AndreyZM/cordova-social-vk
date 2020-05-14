@@ -20,6 +20,14 @@
   <preference name="VK_APP_ID" />
   <!-- ios -->
   <platform name="ios">
+    <podspec>
+            <config>
+                    <source url="https://github.com/CocoaPods/Specs.git"/>
+            </config>
+            <pods use-frameworks="true">
+                    <pod name="VK-ios-sdk" />
+            </pods>
+    </podspec>
     <info>
       You need to register VKontakte application first.
     </info>
